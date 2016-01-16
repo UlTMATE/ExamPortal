@@ -1,0 +1,25 @@
+
+body {
+	background-color : #dfd9c5;
+}
+
+h1 {
+	background-color: #282f4d;
+	color			: #A5DF00;
+	margin-top		: 20%;
+	margin-left		: 0px;
+	padding			: 10px;
+	text-align		: center;
+	font-size		: 2.5em;
+	font-family		: arial;
+}
+
+input[name="startBtn"] {
+	background-color: #c0d766;
+	color			: #6468f4;
+	margin-left		: 45%;
+	padding			: 10px;
+	width			: auto;
+	font-weight		: bold;
+	font-size		: 20px;
+}

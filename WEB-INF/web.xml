@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+	Exam Portal XML File
+-->
+<!DOCTYPE web-app
+     PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>Start</servlet-name>
+        <servlet-class>StartExam</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>Question</servlet-name>
+        <servlet-class>Question</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>ChangeQuestion</servlet-name>
+        <servlet-class>ChangeQuestion</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>Finish</servlet-name>
+        <servlet-class>Finish</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>ReviewQuestion</servlet-name>
+        <servlet-class>ReviewQuestion</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>ChangeReviewQuestion</servlet-name>
+        <servlet-class>ChangeReviewQuestion</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>FinishReview</servlet-name>
+        <servlet-class>FinishReview</servlet-class>
+    </servlet>
+	
+    <servlet-mapping>
+        <servlet-name>Start</servlet-name>
+        <url-pattern>/Start</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>Question</servlet-name>
+        <url-pattern>/Question</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>ChangeQuestion</servlet-name>
+        <url-pattern>/ChangeQuestion</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>Finish</servlet-name>
+        <url-pattern>/Finish</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>ReviewQuestion</servlet-name>
+        <url-pattern>/ReviewQuestion</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>ChangeReviewQuestion</servlet-name>
+        <url-pattern>/ChangeReviewQuestion</url-pattern>
+    </servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>FinishReview</servlet-name>
+        <url-pattern>/FinishReview</url-pattern>
+    </servlet-mapping>
+	
+	<welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+    </welcome-file-list>
+</web-app>
